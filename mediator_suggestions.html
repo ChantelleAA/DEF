@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mediator Suggestions</title>
+</head>
+<body>
+    <h2>Suggested Mediators for {{ case.title }}</h2>
+    <ul>
+        {% for mediator in mediators %}
+            <!-- <li>{{ mediator.name }} - Expertise: {{ mediator.expertise }}</li> -->
+            <li>{{ mediator.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

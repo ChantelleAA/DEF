@@ -114,38 +114,4 @@ The matching and scheduling algorithm ensures that the mediator selected for a c
 2. **Scheduling**:
    - **Availability Management**: Allows both clients and mediators to input their available times and days.
 
-### Data Model Overview
-
-**Client Model**
-- `name`: CharField
-- `contact_info`: TextField
-- `languages`: CharField
-- `country`: CharField
-- `claim_type`: CharField
-
-**Mediator Model**
-- `name`: CharField
-- `contact_info`: TextField
-- `email`: EmailField
-- `level`: CharField
-- `country`: CharField
-- `languages`: CharField
-- `expertise`: TextField
-- `experience`: TextField
-- `membership`: TextField
-- `style_approach`: TextField
-
-**Case Model**
-- `title`: CharField
-- `description`: TextField
-- `case_type`: CharField
-- `clients`: ManyToManyField
-
-**Availability Model**
-- `date`: DateField
-- `start_time`: TimeField
-- `end_time`: TimeField
-- `booked`: BooleanField
-- `client`: ForeignKey
-- `mediator`: ForeignKey
 

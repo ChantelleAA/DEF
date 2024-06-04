@@ -8,11 +8,7 @@
 4. [Usage](#usage)
 5. [Algorithm](#algorithm)
 6. [Data Models](#data-models)
-7. [API Endpoints](#api-endpoints)
-8. [Views and Forms](#views-and-forms)
-9. [Demo](#demo)
-10. [Challenges](#challenges)
-11. [Recommendations](#recommendations)
+
 
 ## Introduction
 
